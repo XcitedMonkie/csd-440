@@ -1,0 +1,49 @@
+
+/*
+    Daniel Fryer
+
+    CSS file for the PHP class
+
+*/
+
+/* Main page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Page heading */
+h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+/* Table styling */
+table {
+    width: 60%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Table cells */
+td {
+    border: 1px solid #cccccc;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+    background-color: #e6f0ff;
+}
+
+/* Highlight row when mousing over them*/
+tr:hover {
+    background-color: #cce0ff;
+}
